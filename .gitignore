@@ -7,6 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+
 node_modules
 dist
 dist-ssr
@@ -26,3 +27,4 @@ dist-ssr
 
 # Project metadata
 AGENTS.md
+synapse_todo_list.md

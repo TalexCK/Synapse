@@ -54,7 +54,9 @@ function App() {
               type="button"
               className="app__control-button"
               onClick={toggleTheme}
-              aria-label={`${text.themeLabel}: ${theme === 'light' ? text.themeDark : text.themeLight}`}
+              aria-label={`${text.themeLabel}: ${
+                theme === 'light' ? text.themeDark : text.themeLight
+              }`}
             >
               {theme === 'light' ? text.themeDark : text.themeLight}
             </button>
